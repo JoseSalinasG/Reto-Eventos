@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda en linea</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Tienda en Línea</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Inicio</a>
+                    <a href="">Productos</a>
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <!--Primera tarjeta-->
+        <div class="tarjeta">
+            <img class="comida" src="img/hamburgesa.png" alt="hamburguesa">
+            <div class="producto">
+                <h2>Hamburguesa</h2>
+                <p> $3.99</p>
+            </div>
+            <button class="boton">Agregar al Carrito</button>
+        </div>
+        <!--Segunda tarjeta-->
+        <div class="tarjeta">
+            <img class="comida" src="img/pizza (1).png" alt="Pizza">
+            <div class="producto">
+                <h2>Pizza</h2>
+                <p>$10.99</p>
+            </div>
+            <button class="boton">Agregar al Carrito</button>
+        </div>
+        <!--Tercera tarjeta-->
+        <div class="tarjeta">
+            <img class="comida" src="img/hot-dog.png" alt="hot-dog">
+            <div class="producto">
+                <h2>Hot-dog</h2>
+                <p>$2.99</p>
+            </div>
+            <button class="boton" >Agregar al Carrito</button>
+        </div>
+    </section>
+    <!--Seccion para la tarjeta de compras-->
+    <section >
+        <div id="tarjeta_carrito" class="carrito carrito_oculto">
+        </div>
+    </section>
+    <!--Parte final-->
+    <footer>
+        <small>&copy; 2023 Tienda en línea.Todos los derechos reservados.</small>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
